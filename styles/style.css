@@ -1,204 +1,40 @@
 @font-face {
-    font-family: 'Conv_Montserrat-Black';
+    font-family: 'Montserrat-Black';
 	src: url('fonts/Montserrat-Black.eot');
-	src: local('☺'), url('../fonts/Montserrat-Black.woff') format('woff'), url('../fonts/Montserrat-Black.ttf') format('truetype'), url('../fonts/Montserrat-Black.svg') format('svg');
+    src: local('☺'), url('../fonts/Montserrat-Black.woff') format('woff'), url('../fonts/Montserrat-Black.ttf') format('truetype'), url('../fonts/Montserrat-Black.svg') format('svg');
+    font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/fonts/Montserrat-Regular.eot');
+	src: local('☺'), url('../fonts/Montserrat-Regular.woff') format('woff'), url('../fonts/Montserrat-Regular.ttf') format('truetype'), url('/fonts/Montserrat-Regular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
+}
+a {
+    text-decoration: none;
+    color: rgba(31, 32, 65, 0.5);
 }
 nav li {
     list-style-type: none;
     display: inline;
-}
-/*
-header {
-    font-family: 'Conv_Montserrat-Black';
-    color: rgba(31, 32, 65, 0.5);
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
+    font-family: 'Montserrat';  
 }
-*/
-nav {
-    position: absolute;
-    width: 1440px;
-    height: 70px;
-    left: 0px;
-    top: 140px;
-
-    background-color: #ffffff;
-    box-shadow: 0px 10px 20px
-     rgba(31, 32, 65, 0.05);
+#О_нас a {
+    color: rgba(31, 32, 65, 0.75);
+    font-family: 'Montserrat-Black';
 }
-#TOXIN {
-    /* TOXIN */
-
-position: absolute;
-width: 53.19px;
-height: 12.95px;
-left: 192.5px;
-top: 168.33px;
-
-}
-#О_нас  {
-    /* О_нас */
-
-position: absolute;
-width: 43px;
-height: 18px;
-left: 530px;
-top: 166px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 17px;
-
-color: rgba(31, 32, 65, 0.75);
+nav button {
+    font-family: 'Montserrat-Black';
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #BC9CFF;
 }
 
-#Услуги  {
-    /* Услуги */
-
-position: absolute;
-width: 50px;
-height: 18px;
-left: 593px;
-top: 166px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
-
-color: rgba(31, 32, 65, 0.5);
-}
-
-#Вакансии {
-    /* Вакансии */
-
-position: absolute;
-width: 72px;
-height: 18px;
-left: 687px;
-top: 166px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
-
-/* Dark 50% */
-color: rgba(31, 32, 65, 0.5);
-
-}
-
-#Новости {
-    /* Новости */
-
-position: absolute;
-width: 62px;
-height: 18px;
-left: 779px;
-top: 166px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
-
-/* Dark 50% */
-color: rgba(31, 32, 65, 0.5);
-
-}
-
-#Соглашения {
-    /* Соглашения */
-
-position: absolute;
-width: 92px;
-height: 18px;
-left: 861px;
-top: 166px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
-
-/* Dark 50% */
-color: rgba(31, 32, 65, 0.5);
-
-}
-
-#button_default {
-    position: absolute;
-width: 87px;
-height: 34px;
-left: 997px;
-top: 158px;
-}
-
-#Войти {
-    /* войти */
-
-position: absolute;
-width: 47px;
-height: 15px;
-left: 1017px;
-top: 167px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 15px;
-/* identical to box height */
-text-transform: uppercase;
-
-/* Primary Color */
-color: #BC9CFF;
-
-}
-
-#Rectangle_2 {
-  /* Rectangle 2 */
-
-position: absolute;
-width: 87px;
-height: 34px;
-left: 997px;
-top: 158px;
-
-border-radius: 22px;
-
-}
-
-#зарегистрироваться {
-    /* зарегистрироваться */
-
-position: absolute;
-width: 157px;
-height: 15px;
-left: 1123px;
-top: 167px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 15px;
-/* identical to box height */
-text-transform: uppercase;
-
-color: #FFFFFF;
 
 
-}
+
 
 
