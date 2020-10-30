@@ -20,21 +20,39 @@ nav li {
     list-style-type: none;
     display: inline;
     font-size: 14px;
-    font-family: 'Montserrat';  
+    font-family: 'Montserrat'; 
 }
-#О_нас a {
+#О_нас {
     color: rgba(31, 32, 65, 0.75);
     font-family: 'Montserrat-Black';
 }
-nav button {
+#Войти {
     font-family: 'Montserrat-Black';
     font-size: 12px;
     text-transform: uppercase;
-    color: #BC9CFF;
+    color: #BC9CFF; 
+    border-radius: 22px;
+    background-color: transparent;
+    width: 87px;
+    height: 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
-
-
-
-
+#Зарегистрироваться {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Montserrat-Black';
+    color: #FFFFFF;
+    border-radius: 22px;
+    border: none;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 196px;
+    height: 34px;
+}
+/* комментарий */
 
 
