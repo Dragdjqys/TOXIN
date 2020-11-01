@@ -22,7 +22,7 @@ nav li {
     font-size: 14px;
     font-family: 'Montserrat'; 
 }
-#О_нас {
+#about_us {
     color: rgba(31, 32, 65, 0.75);
     font-family: 'Montserrat-Black';
 }
@@ -39,7 +39,7 @@ nav li {
       width: 83px;
       height: 30px;
   }
-#Войти {
+#enter {
       font-size: 12px;
       font-family: 'Montserrat-Black';
       text-transform: uppercase;
@@ -48,11 +48,10 @@ nav li {
       background-color: inherit;
   
   }
-#Зарегистрироваться {
+#registration {
     font-size: 12px;
     text-transform: uppercase;
     font-family: 'Montserrat';
-    font-style: normal;
     color: #FFFFFF;
     border-radius: 22px;
     border: 0;
