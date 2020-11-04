@@ -4,24 +4,46 @@
  <meta charset="UTF-8">
  <title>Sign in</title>
  <link rel="stylesheet" type="text/css" href="styles/style.css">
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <header>
+        <div id="header">
         <nav>   
             <ul>
-                <li><img src="img/Vector.svg"> </li>
-            <li id="TOXIN"><img src="img/TOXIN.svg"></li>
+                <!-- логотип недоделанный
+                <li>
+                    <div id="circle"> 
+                        <div id="circle_in_circle">
+                            
+                            <div id="big_vector"></div>
+                            <div id="for_big_vector"></div>
+                        
+                    </div> 
+                </li>
+                -->
+                <li><img id="vector" src="img/Vector.svg"> </li>
+            <li><img id="TOXIN" src="img/TOXIN.svg"></li>
             <li><a id="about_us" href="about_us">О нас</a>
             </li>
             <li id="services"><a href="services">Услуги</a></li>
+            <li><span id="expand_more1" class="material-icons">
+                expand_more
+                </span>
+            </li>
             <li id="vacancies"><a href="vacancies">Вакансии</a></li>
             <li id="news"><a href="news">Новости</a></li>
-            <li id="agreements"><a href="agreements">Соглашения</a></li> 
-            <li><div id="x">
+            <li id="agreements"><a href="agreements">Соглашения</a></li>
+            <li>           <span id="expand_more2" class="material-icons">
+                expand_more
+                </span></li>
+ 
+            <li><div id="rectangle">
             <button id="enter">Войти</button></div></li>
             <li><button id="registration">Зарегистрироваться</button></li>
         </ul>          
         </nav>
-    </header>
+    </div>
 </body>
+    </header>
 </html>

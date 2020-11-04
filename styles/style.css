@@ -1,16 +1,17 @@
 @font-face {
     font-family: 'Montserrat-Black';
-	src: url('fonts/Montserrat-Black.eot');
-    src: local('☺'), url('../fonts/Montserrat-Black.woff') format('woff'), url('../fonts/Montserrat-Black.ttf') format('truetype'), url('../fonts/Montserrat-Black.svg') format('svg');
+    src: url('../fonts/Montserrat-Black.woff') format('woff'), url('../fonts/Montserrat-Black.ttf') format('truetype'), url('../fonts/Montserrat-Black.svg') format('svg');
     font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'Montserrat';
-	src: url('/fonts/Montserrat-Regular.eot');
-	src: local('☺'), url('../fonts/Montserrat-Regular.woff') format('woff'), url('../fonts/Montserrat-Regular.ttf') format('truetype'), url('/fonts/Montserrat-Regular.svg') format('svg');
+	src: url('../fonts/Montserrat-Regular.woff') format('woff'), url('../fonts/Montserrat-Regular.ttf') format('truetype'), url('/fonts/Montserrat-Regular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
+}
+body {
+    background: #E5E5E5;
 }
 a {
     text-decoration: none;
@@ -26,8 +27,7 @@ nav li {
     color: rgba(31, 32, 65, 0.75);
     font-family: 'Montserrat-Black';
 }
-#x {
-    line-height: 15px;
+#rectangle {
     border: double 2px transparent;
     border-radius: 23px;
     background-image: linear-gradient(white, white), radial-gradient(circle at top, #BC9CFF, #8BA4F9);
@@ -37,7 +37,10 @@ nav li {
       align-items: center;
       justify-content: center; 
       width: 83px;
-      height: 30px;
+      height: 30px; 
+      position: absolute;
+      left: 997px;
+top: 158px;
   }
 #enter {
       font-size: 12px;
@@ -46,7 +49,6 @@ nav li {
       color: #BC9CFF;
       border: none;
       background-color: inherit;
-  
   }
 #registration {
     font-size: 12px;
@@ -61,10 +63,107 @@ nav li {
     justify-content: center;
     width: 196px;
     height: 34px;
+    position: absolute;
+    left: 1104px;
+top: 158px;
+
+}
+/* Риисунок который можно наверно сделать, но ОЧЕНЬ долго 
+#circle {
+    background-image: linear-gradient(#BC9CFF 0%, #8BA4F9 100%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+      align-items: center;
+      justify-content: center;
+}
+#circle_in_circle {
+    background: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+#big_vector {
+    width: 15px;
+    height: 15px;
+    background-image: linear-gradient(#BC9CFF 0%, #8BA4F9 100%);
+    border-radius: 50%;
+    display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin: 10px 4px 4px 4px;
+}
+#for_big_vector {
+    width: 8px;
+    height: 9px;
+    background: gray;
+    border-radius: 50%;
+    margin: -15px 0px 0px 0px;
+
+    */
+.material-icons {
+    color: rgba(31, 32, 65, 0.5);
+}
+#vector {
+position: absolute;
+left: 140px;
+top: 155px;
+}
+#TOXIN {
+    position: absolute;
+left: 192.5px;
+top: 168.33px;
+}
+#about_us {
+    position: absolute;
+left: 530px;
+top: 166px;
+}
+#services {
+    position: absolute;
+left: 593px;
+top: 166px;
+}
+#expand_more1 {
+position: absolute;
+    left: 643px;
+    top: 166px;  
+}
+#vacancies {
+    position: absolute;
+    left: 687px;
+top: 166px;
+}
+#news {
+    position: absolute;
+left: 779px;
+top: 166px;
+}
+#agreements {
+left: 861px;
+top: 166px;
+position: absolute;
+}
+#expand_more2 {
+    position: absolute;
+    left: 953px;
+    top: 166px;  
 }
 header {
-    
+    position: absolute;
+width: 1440px;
+height: 70px;
+left: 0px;
+top: 140px;
+background: #FFFFFF;
+box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
 }
-/* комментарий */
-
+#header {
+    position: absolute;
+width: 1440px;
+height: 70px;
+left: 0px;
+top: -140px;
+}
 
