@@ -12,6 +12,7 @@
 }
 body {
     background: #E5E5E5;
+    margin: 0;
 }
 a {
     text-decoration: none;
@@ -26,8 +27,10 @@ nav li {
 #about_us {
     color: rgba(31, 32, 65, 0.75);
     font-family: 'Montserrat-Black';
+    position: relative;
+    top: -1px;
 }
-#rectangle {
+#rectangle_enter{
     border: double 2px transparent;
     border-radius: 23px;
     background-image: linear-gradient(white, white), radial-gradient(circle at top, #BC9CFF, #8BA4F9);
@@ -38,9 +41,9 @@ nav li {
       justify-content: center; 
       width: 83px;
       height: 30px; 
-      position: absolute;
-      left: 997px;
-top: 158px;
+      margin-left: 17px;
+      position: relative;
+      top: -1px;
   }
 #enter {
       font-size: 12px;
@@ -63,10 +66,9 @@ top: 158px;
     justify-content: center;
     width: 196px;
     height: 34px;
-    position: absolute;
-    left: 1104px;
-top: 158px;
-
+    margin-left: 15px;
+    position: relative;
+    top: -3px;
 }
 /* Риисунок который можно наверно сделать, но ОЧЕНЬ долго 
 #circle {
@@ -106,64 +108,54 @@ top: 158px;
     color: rgba(31, 32, 65, 0.5);
 }
 #vector {
-position: absolute;
-left: 140px;
-top: 155px;
+    margin-left: 140px;
+    position: relative;
+    top: 15px;
+    left: 3px;
+
 }
 #TOXIN {
-    position: absolute;
-left: 192.5px;
-top: 168.33px;
+    margin-left: 12.5px;  
 }
 #about_us {
-    position: absolute;
-left: 530px;
-top: 166px;
+    margin-left: 279px;  
 }
 #services {
-    position: absolute;
-left: 593px;
-top: 166px;
+    margin-left: 17px; 
 }
 #expand_more1 {
-position: absolute;
-    left: 643px;
-    top: 166px;  
+    margin-left: -8px;
+    position: relative;
+    top: 7px 
 }
 #vacancies {
-    position: absolute;
-    left: 687px;
-top: 166px;
+    margin-left: 20px;
 }
 #news {
-    position: absolute;
-left: 779px;
-top: 166px;
+    margin-left: 16px;
 }
 #agreements {
-left: 861px;
-top: 166px;
-position: absolute;
+    margin-left: 15px;
+
 }
+
 #expand_more2 {
-    position: absolute;
-    left: 953px;
-    top: 166px;  
+    margin-left: -7px;
+    position: relative;
+    top: 8px; 
 }
+
 header {
-    position: absolute;
-width: 1440px;
-height: 70px;
-left: 0px;
-top: 140px;
+max-width: 1920px;
+width: 100%;
+min-width: auto;
+height: auto;
+max-height: auto;
+min-height: 70px;
 background: #FFFFFF;
 box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+margin-top: -20px;
 }
-#header {
-    position: absolute;
-width: 1440px;
-height: 70px;
-left: 0px;
-top: -140px;
-}
+
+
 
