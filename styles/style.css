@@ -40,7 +40,7 @@ nav li {
       height: 30px; 
       position: absolute;
       left: 997px;
-top: 158px;
+top: 18px;
   }
 #enter {
       font-size: 12px;
@@ -65,7 +65,7 @@ top: 158px;
     height: 34px;
     position: absolute;
     left: 1104px;
-top: 158px;
+top: 18px;
 
 }
 /* Риисунок который можно наверно сделать, но ОЧЕНЬ долго 
@@ -108,62 +108,55 @@ top: 158px;
 #vector {
 position: absolute;
 left: 140px;
-top: 155px;
+top: 15px;
 }
 #TOXIN {
     position: absolute;
 left: 192.5px;
-top: 168.33px;
+top: 28.33px;
 }
 #about_us {
     position: absolute;
 left: 530px;
-top: 166px;
+top: 26px;
 }
 #services {
     position: absolute;
 left: 593px;
-top: 166px;
+top: 26px;
 }
 #expand_more1 {
 position: absolute;
     left: 643px;
-    top: 166px;  
+    top: 25px;  
 }
 #vacancies {
     position: absolute;
     left: 687px;
-top: 166px;
+top: 26px;
 }
 #news {
     position: absolute;
 left: 779px;
-top: 166px;
+top: 26px;
 }
 #agreements {
 left: 861px;
-top: 166px;
+top: 26px;
 position: absolute;
 }
 #expand_more2 {
     position: absolute;
     left: 953px;
-    top: 166px;  
+    top: 25px;  
 }
 header {
     position: absolute;
 width: 1440px;
 height: 70px;
 left: 0px;
-top: 140px;
+top: 0px;
 background: #FFFFFF;
 box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
-}
-#header {
-    position: absolute;
-width: 1440px;
-height: 70px;
-left: 0px;
-top: -140px;
 }
 
