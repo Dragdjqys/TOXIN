@@ -10,24 +10,20 @@
 	font-weight: normal;
 	font-style: normal;
 }
-body {
+.body {
     background: #E5E5E5;
 }
-a {
+.header_nav a {
     text-decoration: none;
     color: rgba(31, 32, 65, 0.5);
 }
-nav li {
+.header_nav ul {
     list-style-type: none;
     display: inline;
     font-size: 14px;
     font-family: 'Montserrat'; 
 }
-#about_us {
-    color: rgba(31, 32, 65, 0.75);
-    font-family: 'Montserrat-Black';
-}
-#rectangle {
+.enter {
     border: double 2px transparent;
     border-radius: 23px;
     background-image: linear-gradient(white, white), radial-gradient(circle at top, #BC9CFF, #8BA4F9);
@@ -38,11 +34,13 @@ nav li {
       justify-content: center; 
       width: 83px;
       height: 30px; 
-      position: absolute;
-      left: 997px;
-top: 18px;
-  }
-#enter {
+}    
+.header_enter {
+    position: absolute;
+    left: 997px;
+    top: 18px;
+}
+.enter__button {
       font-size: 12px;
       font-family: 'Montserrat-Black';
       text-transform: uppercase;
@@ -50,10 +48,12 @@ top: 18px;
       border: none;
       background-color: inherit;
   }
-#registration {
-    font-size: 12px;
+.registration {
     text-transform: uppercase;
-    font-family: 'Montserrat';
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12.3px;
     color: #FFFFFF;
     border-radius: 22px;
     border: 0;
@@ -63,94 +63,62 @@ top: 18px;
     justify-content: center;
     width: 196px;
     height: 34px;
+}
+.header_registration {
     position: absolute;
     left: 1104px;
 top: 18px;
-
 }
-/* Риисунок который можно наверно сделать, но ОЧЕНЬ долго 
-#circle {
-    background-image: linear-gradient(#BC9CFF 0%, #8BA4F9 100%);
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: inline-flex;
-      align-items: center;
-      justify-content: center;
-}
-#circle_in_circle {
-    background: white;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-}
-#big_vector {
-    width: 15px;
-    height: 15px;
-    background-image: linear-gradient(#BC9CFF 0%, #8BA4F9 100%);
-    border-radius: 50%;
-    display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      margin: 10px 4px 4px 4px;
-}
-#for_big_vector {
-    width: 8px;
-    height: 9px;
-    background: gray;
-    border-radius: 50%;
-    margin: -15px 0px 0px 0px;
-
-    */
 .material-icons {
     color: rgba(31, 32, 65, 0.5);
 }
-.vector {
+.logo-circle {
 position: absolute;
 left: 140px;
 top: 15px;
 }
-#TOXIN {
+.logo-toxin {
     position: absolute;
 left: 192.5px;
 top: 28.33px;
 }
-#about_us {
+.header_about_us {
     position: absolute;
 left: 530px;
 top: 26px;
 }
-#services {
+.header_services {
     position: absolute;
 left: 593px;
 top: 26px;
 }
-#expand_more1 {
+.header_services .material-icons {
 position: absolute;
-    left: 643px;
-    top: 25px;  
+    left: 50px;
+    top: -2px; 
 }
-#vacancies {
+.header_agreements .material-icons {
+    position: absolute;
+    left: 92px; 
+    top: -2px; 
+}
+.header_vacancies {
     position: absolute;
     left: 687px;
 top: 26px;
 }
-#news {
+.header_news {
     position: absolute;
 left: 779px;
 top: 26px;
 }
-#agreements {
+.header_agreements {
 left: 861px;
 top: 26px;
 position: absolute;
 }
-#expand_more2 {
-    position: absolute;
-    left: 953px;
-    top: 25px;  
-}
-header {
+
+.header {
     position: absolute;
 width: 1440px;
 height: 70px;

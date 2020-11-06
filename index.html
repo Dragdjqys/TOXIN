@@ -6,44 +6,29 @@
  <link rel="stylesheet" type="text/css" href="styles/style.css">
  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <div class="header">
-        <nav>   
+<body class="body">
+    <header class="header">
+            <img class="logo-circle" alt="logo" src="img/Vector.svg">
+            <img class="logo-toxin" alt="logo" src="img/TOXIN.svg">
+            <nav class="nav header_nav">   
             <ul>
-                <!-- логотип недоделанный
-                <li>
-                    <div id="circle"> 
-                        <div id="circle_in_circle">
-                            
-                            <div id="big_vector"></div>
-                            <div id="for_big_vector"></div>
-                        
-                    </div> 
-                </li>
-                -->
-                <li><img class="vector" src="img/Vector.svg"> </li>
-            <li><img id="TOXIN" src="img/TOXIN.svg"></li>
-            <li><a id="about_us" href="about_us">О нас</a>
+            <li><a class="header_about_us" href="about_us">О нас</a>
             </li>
-            <li id="services"><a href="services">Услуги</a></li>
-            <li><span id="expand_more1" class="material-icons">
-                expand_more
-                </span>
-            </li>
-            <li id="vacancies"><a href="vacancies">Вакансии</a></li>
-            <li id="news"><a href="news">Новости</a></li>
-            <li id="agreements"><a href="agreements">Соглашения</a></li>
-            <li>           <span id="expand_more2" class="material-icons">
+            <li class="header_services"><a href="services">Услуги</a>
+            <span class="material-icons">
                 expand_more
                 </span></li>
- 
-            <li><div id="rectangle">
-            <button id="enter">Войти</button></div></li>
-            <li><button id="registration">Зарегистрироваться</button></li>
+            <li class="header_vacancies"><a href="vacancies">Вакансии</a></li>
+            <li class="header_news"><a href="news">Новости</a></li>
+            <li class="header_agreements"><a href="agreements">Соглашения</a><span class="material-icons">
+                expand_more
+                </span></li>
         </ul>          
         </nav>
-    </div>
+        <div class="enter header_enter">
+            <button class="enter__button">Войти</button></div>
+            <button class="registration header_registration">Зарегистрироваться</button>
+        </header>
 </body>
-    </header>
+    
 </html>
