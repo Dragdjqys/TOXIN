@@ -1,8 +1,10 @@
 @font-face {
-    font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-Black.woff') format('woff'), url('../fonts/Montserrat-Black.ttf') format('truetype'), url('../fonts/Montserrat-Black.svg') format('svg');
-    font-weight: normal;
-	font-style: normal;
+    font-family: 'Montserrat-bold';
+    src: url('../fonts/Montserrat-Bold.woff') format('woff'),
+        url('../fonts/Montserrat-Bold.ttf') format('truetype'),
+        url('../fonts/Montserrat-Bold.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
 }
 @font-face {
 	font-family: 'Montserrat';
@@ -50,18 +52,17 @@
 }
 .enter__button {
       font-size: 12px;
-      font-family: 'Montserrat-Black', sans-serif;
+      font-family: 'Montserrat-bold', sans-serif;
       text-transform: uppercase;
       color: #BC9CFF;
       border: none;
       background-color: inherit;
   }
-.registration {
+.registration, .search-for-numbers__button {
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-bold', sans-serif;
 
-font-weight: bold;
-font-size: 12.3px;
+font-size: 12px;
     color: #FFFFFF;
     border-radius: 22px;
     border: 0;
@@ -76,6 +77,13 @@ font-size: 12.3px;
     position: absolute;
     left: 1104px;
 top: 18px;
+}
+.search-for-numbers__button {
+  position: absolute;
+  left: 30px;
+  top: 300px; 
+  width: 320px;
+height: 44px; 
 }
 .material-icons {
     color: rgba(31, 32, 65, 0.5);
@@ -163,8 +171,6 @@ font-weight: bold;
 font-size: 24px;
 line-height: 30px;
     position: absolute;
-width: 320px;
-height: 60px;
 left: 30px;
 top: 40px;
 color: #1F2041;
@@ -173,13 +179,26 @@ color: #1F2041;
 .search-for-numbers_text {
     font-family: 'Montserrat', sans-serif;
 }
-.search-for-numbers_text bold {
-    font-weight: bold;
+.search-for-numbers_text_bold {
+    font-family: 'Montserrat-bold', sans-serif;
 font-size: 12px;
 color: #1F2041;
 text-transform: uppercase;
 }
 .search-for-numbers_text__arrival {
-
+    position: absolute;
+left: 30px;
+top: 120px;
 }
+.search-for-numbers_text__exit {
+    position: absolute;
+    left: 200px;
+    top: 120px;
+}
+.search-for-numbers_text__guests {
+    position: absolute;
+    top: 205px;
+    left: 30px;
+}
+
 
