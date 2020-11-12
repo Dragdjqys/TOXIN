@@ -149,26 +149,23 @@ width: 1440px;
 height: 1022px;
 left: 0px;
 top: 70px;
-/*
-background-image: url(/img/main.svg); 
-background-repeat: no-repeat;
-*/
+overflow: hidden;
 }
 
-.oy {
+.background-image {
     position: absolute;
-width: 1534px;
+width: 1440px;
 height: 1022px;
-left: -95px;
-top: -120px;
+left: 0px;
+top: -131px;
 }
 
 .search-for-numbers {
     position: absolute;
 width: 380px;
 height: 374px;
-left: 140px;
-top: 140px;
+left: 139px;
+top: 70px;
 
 background: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.12);
@@ -185,7 +182,7 @@ line-height: 30px;
 left: 30px;
 top: 40px;
 color: #1F2041;
-
+letter-spacing: 1.2px;
 }
 .search-for-numbers_text {
     font-family: 'Montserrat', sans-serif;
@@ -213,7 +210,7 @@ top: 120px;
 }
 .search-for-numbers__arrow-forward {
     position: absolute;
-left: 306px;
+left: 315px;
 top: 308.5px;
 color: #FFFFFF;
 font-family: Material Icons;
@@ -246,16 +243,18 @@ color: rgba(31, 32, 65, 0.75);
     position: absolute;
 width: 297px;
 height: 48px;
-left: 1056px;
-top: 764px;
+left: 1009px;
+top: 749px;
 text-align: right;
+line-height: 23px;
 }
 .big-footer__marketing-text {
     position: absolute;
 width: 260px;
 height: 72px;
 left: 140px;
-top: 160px;
+top: 145px;
+line-height: 23px;
 }
 .h3 {
     font-family: 'Montserrat-bold', sans-serif;
@@ -266,7 +265,7 @@ color: #1F2041;
 .big-footer__navigation {
     position: absolute;
     left: 440px;
-    top: 104px;
+    top: 92px;
 }
 .big-footer__about-us {
     position: absolute;
@@ -290,7 +289,7 @@ color: #1F2041;
 }
 .big-footer_h3__about-us {
     position: absolute;
-    top: 104px;
+    top: 92px;
     left: 640px;
 }
 .big-footer__about-service {
@@ -316,7 +315,7 @@ color: #1F2041;
 .big-footer_h3__support {
     position: absolute;
     left: 840px;
-    top: 104px;
+    top: 92px;
 }
 .big-footer__agreements {
     position: absolute;
@@ -336,14 +335,15 @@ color: #1F2041;
 .big-footer_h3_subscription {
     position: absolute;
     left: 1040px;
-    top: 104px;
+    top: 92px;
 }
 .big-footer__special {
     position: absolute;
     left: 1040px;
-    top: 140px;
+    top: 139px;
     width: 260px;
-height: 48px
+height: 48px;
+line-height: 23px;
 }
 .footer {
     position: absolute;
@@ -359,8 +359,22 @@ box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
 font-size: 14px;
 color: rgba(31, 32, 65, 0.75);
 position: absolute;
-top: 16px;
-left: 140px;
+top: 13px;
+left: 139px;
 }
-
+.twitter {
+    position: absolute;
+    top: 23px;
+    left: 1188px;
+}
+.facebook {
+    position: absolute;
+    top: 23px;
+    left: 1232px;
+}
+.instagram {
+    position: absolute;
+    top: 23px;
+    left: 1276px;
+}
 
