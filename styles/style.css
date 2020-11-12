@@ -6,12 +6,14 @@
     font-weight: bold;
     font-style: normal;
 }
+
 @font-face {
-	font-family: 'Montserrat';
-	src: url('../fonts/Montserrat-Regular.woff') format('woff'), url('../fonts/Montserrat-Regular.ttf') format('truetype'), url('/fonts/Montserrat-Regular.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff') format('woff'), url('../fonts/Montserrat-Regular.ttf') format('truetype'), url('/fonts/Montserrat-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+
 @font-face {
     font-family: 'Open Sans';
     src: url('../fonts/OpenSans-Regular.woff') format('woff'),
@@ -20,19 +22,23 @@
     font-weight: normal;
     font-style: normal;
 }
+
 .body {
     background: #E5E5E5;
 }
+
 .nav a {
     text-decoration: none;
     color: rgba(31, 32, 65, 0.5);
 }
+
 .nav ul {
     list-style-type: none;
     display: inline;
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
 }
+
 .enter {
     border: double 2px transparent;
     border-radius: 23px;
@@ -40,29 +46,33 @@
     background-origin: border-box;
     background-clip: content-box, border-box;
     display: inline-flex;
-      align-items: center;
-      justify-content: center; 
-      width: 83px;
-      height: 30px; 
-}    
+    align-items: center;
+    justify-content: center;
+    width: 83px;
+    height: 30px;
+}
+
 .header_enter {
     position: absolute;
     left: 997px;
     top: 18px;
 }
+
 .enter__button {
-      font-size: 12px;
-      font-family: 'Montserrat-bold', sans-serif;
-      text-transform: uppercase;
-      color: #BC9CFF;
-      border: none;
-      background-color: inherit;
-  }
-.registration, .search-for-numbers__button {
+    font-size: 12px;
+    font-family: 'Montserrat-bold', sans-serif;
+    text-transform: uppercase;
+    color: #BC9CFF;
+    border: none;
+    background-color: inherit;
+}
+
+.registration,
+.search-for-numbers__button {
     text-transform: uppercase;
     font-family: 'Montserrat-bold', sans-serif;
 
-font-size: 12px;
+    font-size: 12px;
     color: #FFFFFF;
     border-radius: 22px;
     border: 0;
@@ -73,278 +83,322 @@ font-size: 12px;
     width: 196px;
     height: 34px;
 }
+
 .header_registration {
     position: absolute;
     left: 1104px;
-top: 18px;
+    top: 18px;
 }
+
 .search-for-numbers__button {
-  position: absolute;
-  left: 30px;
-  top: 300px; 
-  width: 320px;
-height: 44px; 
+    position: absolute;
+    left: 30px;
+    top: 300px;
+    width: 320px;
+    height: 44px;
 }
+
 .material-icons {
     color: rgba(31, 32, 65, 0.5);
 }
+
 .logo-circle {
-position: absolute;
-left: 140px;
-top: 15px;
+    position: absolute;
+    left: 140px;
+    top: 15px;
 }
+
 .logo-toxin {
     position: absolute;
-left: 192.5px;
-top: 28.33px;
+    left: 192.5px;
+    top: 28.33px;
 }
+
 .header_about_us {
     position: absolute;
-left: 530px;
-top: 26px;
+    left: 530px;
+    top: 26px;
 }
+
 .header_services {
     position: absolute;
-left: 593px;
-top: 26px;
+    left: 593px;
+    top: 26px;
 }
+
 .header_services .material-icons {
-position: absolute;
+    position: absolute;
     left: 50px;
-    top: -2px; 
+    top: -2px;
 }
+
 .header_agreements .material-icons {
     position: absolute;
-    left: 92px; 
-    top: -2px; 
+    left: 92px;
+    top: -2px;
 }
+
 .header_vacancies {
     position: absolute;
     left: 687px;
-top: 26px;
+    top: 26px;
 }
+
 .header_news {
     position: absolute;
-left: 779px;
-top: 26px;
+    left: 779px;
+    top: 26px;
 }
+
 .header_agreements {
-left: 861px;
-top: 26px;
-position: absolute;
+    left: 861px;
+    top: 26px;
+    position: absolute;
 }
 
 .header {
     position: absolute;
-width: 1440px;
-height: 70px;
-left: 0px;
-top: 0px;
-background: #FFFFFF;
-box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+    width: 1440px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
 }
+
 .main {
     position: absolute;
-width: 1440px;
-height: 1022px;
-left: 0px;
-top: 70px;
-overflow: hidden;
+    width: 1440px;
+    height: 1022px;
+    left: 0px;
+    top: 70px;
+    overflow: hidden;
 }
 
 .background-image {
     position: absolute;
-width: 1440px;
-height: 1022px;
-left: 0px;
-top: -131px;
+    width: 1440px;
+    height: 1022px;
+    left: 0px;
+    top: -131px;
 }
 
 .search-for-numbers {
     position: absolute;
-width: 380px;
-height: 374px;
-left: 139px;
-top: 70px;
+    width: 380px;
+    height: 374px;
+    left: 139px;
+    top: 70px;
 
-background: #FFFFFF;
-border: 1px solid rgba(0, 0, 0, 0.12);
-box-sizing: border-box;
-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
-border-radius: 4px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
 }
+
 .search-for-numbers__main-text {
     font-family: 'Open Sans', sans-serif;
-font-weight: bold;
-font-size: 24px;
-line-height: 30px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.25;
     position: absolute;
-left: 30px;
-top: 40px;
-color: #1F2041;
-letter-spacing: 1.2px;
+    left: 30px;
+    top: 40px;
+    color: #1F2041;
+    letter-spacing: 1.2px;
 }
+
 .search-for-numbers_text {
     font-family: 'Montserrat', sans-serif;
 }
+
 .search-for-numbers_text_bold {
     font-family: 'Montserrat-bold', sans-serif;
-font-size: 12px;
-color: #1F2041;
-text-transform: uppercase;
+    font-size: 12px;
+    color: #1F2041;
+    text-transform: uppercase;
 }
+
 .search-for-numbers_text__arrival {
     position: absolute;
-left: 30px;
-top: 120px;
+    left: 30px;
+    top: 120px;
 }
+
 .search-for-numbers_text__exit {
     position: absolute;
     left: 200px;
     top: 120px;
 }
+
 .search-for-numbers_text__guests {
     position: absolute;
     top: 205px;
     left: 30px;
 }
+
 .search-for-numbers__arrow-forward {
     position: absolute;
-left: 315px;
-top: 308.5px;
-color: #FFFFFF;
-font-family: Material Icons;
+    left: 315px;
+    top: 308.5px;
+    color: #FFFFFF;
+    font-family: Material Icons;
 }
+
 .big-footer {
     position: absolute;
-width: 1440px;
-height: 372px;
-left: 0px;
-top: 900px;
-background: #FFFFFF;
-box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
+    width: 1440px;
+    height: 372px;
+    left: 0px;
+    top: 900px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
 }
+
 .big-footer__circle {
     position: absolute;
     top: 100px;
     left: 140px;
 }
+
 .big-footer__toxin {
     position: absolute;
     top: 113.33px;
     left: 192.2px;
 }
+
 .marketing-text {
     font-family: 'Montserrat', sans-serif;
-font-size: 14px;
-color: rgba(31, 32, 65, 0.75);
+    font-size: 14px;
+    color: rgba(31, 32, 65, 0.75);
 }
+
 .main__marketing-text {
     position: absolute;
-width: 297px;
-height: 48px;
-left: 1009px;
-top: 749px;
-text-align: right;
-line-height: 23px;
+    width: 297px;
+    height: 48px;
+    left: 1009px;
+    top: 749px;
+    text-align: right;
+    line-height: 23px;
 }
+
 .big-footer__marketing-text {
     position: absolute;
-width: 260px;
-height: 72px;
-left: 140px;
-top: 145px;
-line-height: 23px;
+    width: 260px;
+    height: 72px;
+    left: 140px;
+    top: 145px;
+    line-height: 23px;
 }
+
 .h3 {
     font-family: 'Montserrat-bold', sans-serif;
-font-size: 12px;
-text-transform: uppercase;
-color: #1F2041;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #1F2041;
 }
+
 .big-footer__navigation {
     position: absolute;
     left: 440px;
     top: 92px;
 }
+
 .big-footer__about-us {
     position: absolute;
     left: 440px;
     top: 140px;
 }
+
 .big-footer__news {
     position: absolute;
     left: 440px;
     top: 178px;
 }
+
 .big-footer__support {
     position: absolute;
     left: 440px;
     top: 216px;
 }
+
 .big-footer__services {
     position: absolute;
     left: 440px;
     top: 254px;
 }
+
 .big-footer_h3__about-us {
     position: absolute;
     top: 92px;
     left: 640px;
 }
+
 .big-footer__about-service {
     position: absolute;
     left: 640px;
     top: 140px;
 }
+
 .big-footer__our-team {
     position: absolute;
     left: 640px;
     top: 178px;
 }
+
 .big-footer__vacancies {
     position: absolute;
     left: 640px;
     top: 216px;
 }
+
 .big-footer__investors {
     position: absolute;
     left: 640px;
     top: 254px;
 }
+
 .big-footer_h3__support {
     position: absolute;
     left: 840px;
     top: 92px;
 }
+
 .big-footer__agreements {
     position: absolute;
     left: 840px;
     top: 140px;
 }
+
 .big-footer__communities {
     position: absolute;
     top: 178px;
     left: 840px;
 }
+
 .big-footer__contacts {
     position: absolute;
     left: 840px;
     top: 216px;
 }
+
 .big-footer_h3_subscription {
     position: absolute;
     left: 1040px;
     top: 92px;
 }
+
 .big-footer__special {
     position: absolute;
     left: 1040px;
     top: 139px;
     width: 260px;
-height: 48px;
-line-height: 23px;
+    height: 48px;
+    line-height: 23px;
 }
+
 .footer {
     position: absolute;
     width: 1440px;
@@ -352,29 +406,32 @@ line-height: 23px;
     left: 0px;
     top: 1273px;
     background: #FFFFFF;
-box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
 }
+
 .copyright {
     font-family: 'Montserrat', sans-serif;
-font-size: 14px;
-color: rgba(31, 32, 65, 0.75);
-position: absolute;
-top: 13px;
-left: 139px;
+    font-size: 14px;
+    color: rgba(31, 32, 65, 0.75);
+    position: absolute;
+    top: 13px;
+    left: 139px;
 }
+
 .twitter {
     position: absolute;
     top: 23px;
     left: 1188px;
 }
+
 .facebook {
     position: absolute;
     top: 23px;
     left: 1232px;
 }
+
 .instagram {
     position: absolute;
     top: 23px;
     left: 1276px;
 }
-
