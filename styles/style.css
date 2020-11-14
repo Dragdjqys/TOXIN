@@ -22,84 +22,93 @@
     font-weight: normal;
     font-style: normal;
 }
+
+* {
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none; 
+    box-sizing: border-box;
+}
 body {
     max-width: 1920px;
     min-width: 320px;
-    margin: 0px;
-    padding: 0px;  
 }
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
 .header {
-    display: flex;
     background: #FFFFFF;
-box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
-position: absolute;
-left: 0px;
-top: 0px;
-width: 100%;
-height: 70px;
-max-width: inherit;
-min-width: inherit;
-flex-wrap: wrap;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    min-height: 70px;
+    max-width: inherit;
+    min-width: inherit;
+    display: flex;
+    justify-content: center;
+
 }
+
 .header__container {
     width: 80%;
-    background-color: green;
+    height: inherit;
+    min-width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
 }
 .logo {
     display: inline-flex;
-    
-   
-    
+}
 
-}
-.logo_circle {
-}
-.logo_toxin {
-    
-}
+.logo_circle {}
+
+.logo_toxin {}
+
 .nav {
-    
-background-color: gray;
+background-color: khaki;
 }
+
 .header_nav a {
     color: rgba(31, 32, 65, 0.5);
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
 }
+
 .header ul {
-    list-style: none;
-    
+
 }
+
 .header li {
-    display: inline;
+
 }
-a {
-    text-decoration: none;
-}
-.link-about-us {
-}
+
+.link-about-us {}
+
 .link-services {
-    position: relative;
+    
 }
-.link-servisec__material-icons {
-    position: absolute;
-    left: 45px;
-    bottom: -3px;
-}
+
 .material-icons {
+    color: rgba(31, 32, 65, 0.5);
 }
-.link-vacancy {
-     
-}
-.link-news {
-     
-}
-.link-agreements {
-}
-.form {
-    
-    
-}
+
+.link-vacancy {}
+
+.link-news {}
+
+.link-agreements {}
+
+.form {}
+
 .enter {
     border: double 2px transparent;
     border-radius: 23px;
@@ -109,12 +118,12 @@ a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 83px;
-    height: 30px;
+    width: 87px;
+    height: 34px;
 }
-.header_enter {
-    
-}
+
+.header_enter {}
+
 .enter__button {
     font-size: 12px;
     font-family: 'Montserrat-bold', sans-serif;
@@ -122,17 +131,19 @@ a {
     color: #BC9CFF;
     border: none;
     background-color: inherit;
-    width: 83px;
-    height: 30px;
+    width: 87px;
+    height: 34x;
 }
+
 .enter__button:hover {
     cursor: pointer;
 }
+
 .registration {
     text-transform: uppercase;
     font-family: 'Montserrat-bold', sans-serif;
 
-    font-size: 0,75em;
+    font-size: 0, 75em;
     color: #FFFFFF;
     border-radius: 22px;
     border: 0;
@@ -143,6 +154,7 @@ a {
     width: 196px;
     height: 34px;
 }
+
 .registration:hover {
     cursor: pointer;
 }
