@@ -41,33 +41,37 @@ max-width: inherit;
 min-width: inherit;
 flex-wrap: wrap;
 }
+.header__container {
+    width: 80%;
+    background-color: green;
+}
 .logo {
     display: inline-flex;
-    margin-left:  10.25%;
+    
+   
+    
 
 }
 .logo_circle {
 }
 .logo_toxin {
-    margin-left: 12.5%;
+    
 }
 .nav {
-    margin-left: 18.8%;
-    margin-top: 0.15%;
-
+    
+background-color: gray;
 }
 .header_nav a {
     color: rgba(31, 32, 65, 0.5);
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
 }
-} 
 .header ul {
     list-style: none;
     
 }
 .header li {
-    display: inline-flex;
+    display: inline;
 }
 a {
     text-decoration: none;
@@ -75,15 +79,25 @@ a {
 .link-about-us {
 }
 .link-services {
-    margin-left: 5.4%;
+    position: relative;
+}
+.link-servisec__material-icons {
+    position: absolute;
+    left: 45px;
+    bottom: -3px;
 }
 .material-icons {
 }
 .link-vacancy {
+     
+}
+.link-news {
+     
 }
 .link-agreements {
 }
-.form:hover {
+.form {
+    
     
 }
 .enter {
@@ -97,6 +111,8 @@ a {
     justify-content: center;
     width: 83px;
     height: 30px;
+}
+.header_enter {
     
 }
 .enter__button {
