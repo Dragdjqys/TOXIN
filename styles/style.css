@@ -35,8 +35,7 @@ body {
     min-width: 320px;
 }
 img {
-    width: 100%;
-    max-width: 100%;
+    
 }
 
 .header {
@@ -46,13 +45,9 @@ img {
     left: 0px;
     top: 0px;
     width: 100%;
-    height: auto;
     min-height: 70px;
     max-width: inherit;
     min-width: inherit;
-    display: flex;
-    justify-content: center;
-
 }
 
 .header__container {
@@ -61,33 +56,44 @@ img {
     min-width: inherit;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    
 }
 .logo {
     display: inline-flex;
 }
 
+.header_logo {
+    margin-left: 140px;
+    margin-top: 15px;
+}
+
 .logo_circle {}
 
-.logo_toxin {}
+.logo_toxin {
+    margin-left: 12px; 
+}
 
 .nav {
 background-color: khaki;
+
+}
+
+.header_nav {
+    margin-left: 264px;
+    margin-top: 21px;
 }
 
 .header_nav a {
     color: rgba(31, 32, 65, 0.5);
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
-    display: inline-flex;
 }
 
 .header ul {
-
+    display: inline-flex;
 }
 
 .header li {
+    margin-left: 21px;
 
 }
 
@@ -107,7 +113,9 @@ background-color: khaki;
 
 .link-agreements {}
 
-.form {}
+.form {
+    
+}
 
 .enter {
     border: double 2px transparent;
@@ -122,7 +130,8 @@ background-color: khaki;
     height: 34px;
 }
 
-.header_enter {}
+.header_enter {
+}
 
 .enter__button {
     font-size: 12px;
